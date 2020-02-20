@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--HTML=HYPERTEXT MARKUP LANGUAGE-->
+<html>
+
+<head>
+    <!-- são configurações da minha página-->
+    <title>Doe Sangue, Doe vida!</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Aqui vem todo o conteúdo visível para o usuário, dentro de certa pagina-->
+    <header>
+        <!--Conteúdo do topo-->
+        <img 
+            class="logo"
+            src="logo.png" 
+            alt="imagem DOE">
+        <h2>A sua doação importa</h2>
+        <p>Até 3 vidas com 1 doação</p>
+        <p>Mais de 38.000 doações são necessárias todos os dias</p>
+        <p>Apenas 1.9% da população brasileira, doa sangue</p>
+
+        <button>Quero Ajudar</button>
+    </header>
+
+    <section class="form hide">
+        <h2>Entre na lista de doadores</h2>
+        <form action="/">
+            <input type="text" 
+                    name="name"
+                    placeholder="Nome Completo"
+            >
+            <input type="text" 
+                    name="email"
+                    placeholder="Email"
+            >
+            <input type="text" 
+                    name="blood"
+                    placeholder="Tipo Sanguíneo"
+            >
+            <button>Quero Ajudar</button>
+        </form>
+    </section>
+    
+    <main>
+        <!--Conteúdo central-->
+        <h2>Últimos <span>doadores</span></h2>
+
+        <section class="donors">
+            <div class="donor">
+                <div class="blood">AB+</div>
+                <P>Diego Fernandes</P> 
+                
+            </div>
+            <div class="donor">
+                <div class="blood">B+</div>
+                <P>Cleiton Souza</P> 
+                
+            </div>
+            <div class="donor">
+                <div class="blood">A+</div>
+                <P>Robson Marques</P> 
+                
+            </div>
+            <div class="donor">
+                <div class="blood">O+</div>
+                <P>Mayk Brito</P> 
+                
+            </div>
+        </section>
+    </main>
+    <footer><!--Rodapé-->
+    Com 💓 Wueernedreyzz Emidio
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
